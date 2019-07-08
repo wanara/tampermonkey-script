@@ -54,4 +54,15 @@
     console.log(Date.now());
     //execute getLyric after loading
     clipboard.addEventListener('load', getLyric);
+    
+    //utaten prepare
+//     var line = "";
+//     var child = document.querySelector(".hiragana").childNodes;
+//     for(let i=0, len=child.length;i < len; i++){
+//         const nodename = child[i].nodeName;
+//         if(nodename == "BR"){console.log(line); line = "";}
+//         else if(nodename == "SPAN"){line += child[i].querySelector(".rb").innerText}
+//         else if(line == ""){line = child[i].nodeValue.trimLeft()}
+//         else{line += child[i].nodeValue}
+//     }
 })();
