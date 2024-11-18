@@ -12,9 +12,10 @@
 (function() {
     'use strict';
     const head= document.getElementsByTagName('head')[0];
-    const imgurl = "https://image.flaticon.com/icons/svg/157/157363.svg";
-    const width = "25";
-    const height = "25";
+    // copyright https://clibo.tw/commissions/37cGV6#google_vignette
+    const imgurl = "https://assets.clibo.tw/images/commissions/37cGV6-2X3n.jpg?v=009c76c0c3bfb326e7083bfbd9af1911";
+    const width = "40";
+    const height = "40";
     var getLyric = null;
     //---
     var img = document.createElement("img");
